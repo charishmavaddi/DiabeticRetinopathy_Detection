@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Diabetic Retinopathy Detection - TensorFlow</title>
+    <style>
+body {
+            margin: 0;
+            padding: 0;
+            background-color: #85C1E9; /* light blue color */
+        }
+html, body {
+            height: 100%;
+        }
+      /* Center the container element horizontally and position it at the top of the page */
+      #container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+      }
+       /* Center the label text horizontally */
+      label {
+        text-align: center;
+        font-size: 24px; /* Increase the font size */
+      }
+      /* Position the heading at the top of the page */
+      h1 {
+        text-align: center;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+      }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Diabetic Retinopathy Detection</h1>
+        <form action="/predict" method="post" enctype="multipart/form-data">
+
+	    <label for="image">Upload a Retina Image:</label>
+        <input type="file" id="image" name="image">
+        <input type="submit" value="Predict">
+
+        </form>
+    </div>
+</body>
+</html>

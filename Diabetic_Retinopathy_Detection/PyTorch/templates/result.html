@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Diabetic Retinopathy Detection - PyTorch</title>
+    <style>
+        h1 {
+        text-align: center;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+      }
+      body {
+            margin: 0;
+            padding: 0;
+            background-color: #85C1E9; /* light blue color */
+        }
+      label {
+        text-align: center;
+        font-size: 24px; /* Increase the font size */
+      }
+      #container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+      }
+      p {
+            font-size: 18px;
+            padding: 20px;
+            border: 2px solid #555; /* Add a border around the text */
+            border-radius: 10px; /* Round the corners of the border */
+            background-color: #fff; /* Set a white background color for the box */
+            max-width: 500px; /* Limit the width of the box */
+            text-align: center; /* Center the text within the box */
+            box-sizing: border-box; /* Include the border in the element's total width and height */
+        }
+        
+    </style>
+</head>
+<body>
+    <div id = "container">
+        <h1>Diabetic Retinopathy Detection</h1>
+        <p>The predicted DR severity is: {{ text }}</p>
+
+        <button onclick="window.location.href='/';">Go to Home Page</button>
+    </div>
+</body>
+</html>

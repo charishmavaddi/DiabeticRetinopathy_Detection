@@ -1,0 +1,7 @@
+- The project documentation is named as Comparatative_Study_Of_Tensorflow_and_PyTorch_In_DiabeticRetinopathyDetection_R10.pdf
+- The Diabetic Retinopathy datset is present in Diabetic_retinopathy_Detection/DataSet file folder
+- The python code for Pytorch version of project is located in Diabetic_retinopathy_Detection/PyTorch file folder
+- The python code for TensorFlow version of project is located in Diabetic_retinopathy_Detection/Tensorflow file folder.
+- Flask file is named as app.py
+- The home.html and result.html are stored in template folder
+- Package requirements are stored in requirements.txt 
